@@ -1,3 +1,10 @@
+deepin-firefox-addons (1.0-1) oneiric; urgency=low
+
+  * add install
+  * change rules
+
+ -- Wang Mingdong <wangmingdong@linuxdeepin.com>  Mon, 28 Nov 2011 15:43:11 +0800
+
 deepin-firefox-addons (1.0) oneiric; urgency=low
 
   * Firefox extensions:

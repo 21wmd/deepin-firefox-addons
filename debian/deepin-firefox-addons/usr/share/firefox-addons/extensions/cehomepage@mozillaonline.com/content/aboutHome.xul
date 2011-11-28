@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://ntab/locale/overlay.dtd">
+<window id="appcenter_window"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		xmlns:html="http://www.w3.org/1999/xhtml"
+		title="&cehptitle;">
+  <html:link rel="icon" href="chrome://ntab/skin/logo/ld.ico" style="display:none"/>	
+  <browser type="content" src="http:/www.linuxdeepin.com" flex="1"/>
+</window>
