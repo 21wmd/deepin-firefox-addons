@@ -1,0 +1,7 @@
+deepin-firefox-addons (1.0) oneiric; urgency=low
+
+  * Firefox extensions:
+    - FireGestures http://www.xuldev.org/firegestures/
+    - cehomepage, 王明栋从中国版火狐的插件修改而来
+
+ -- Leng Ganghua <hiweed@gmail.com>  Fri, 18 Nov 2011 13:50:53 +0800

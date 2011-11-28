@@ -1,0 +1,43 @@
+<!ENTITY ntab.label "Your localized menuitem">
+<!ENTITY ntabContext.label "Add to quick dial">
+<!ENTITY ntabContext.accesskey "Y">
+<!ENTITY ntabToolbarButton.label "Your Toolbar Button">
+<!ENTITY ntabToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY ntabSidebar.label "Your Sidebar">
+<!ENTITY ntabToolbar.name  "example">
+<!ENTITY ntabToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &ntabToolbar.name;">
+
+<!ENTITY ntab.contextmenu.preferences "Preference">
+<!ENTITY ntab.contextmenu.refresh "Refresh">
+<!ENTITY ntab.contextmenu.refresh.accesskey "R">
+<!ENTITY ntab.contextmenu.refreshall "Refresh All">
+<!ENTITY ntab.contextmenu.refreshall.accesskey "A">
+<!ENTITY ntab.contextmenu.edit "Edit">
+<!ENTITY ntab.contextmenu.edit.accesskey "E">
+<!ENTITY ntab.contextmenu.openLinkInNewTab "Open Link in new tab">
+<!ENTITY ntab.contextmenu.openLinkInNewTab.accesskey "O">
+
+<!ENTITY ntab.contextmenu.switchto "Switch to">
+<!ENTITY ntab.contextmenu.switchto.accesskey "W">
+<!ENTITY ntab.contextmenu.nav "Navigation">
+<!ENTITY ntab.contextmenu.nav.accesskey "A">
+<!ENTITY ntab.contextmenu.quickdial "Quick Dial">
+<!ENTITY ntab.contextmenu.quickdial.accesskey "Q">
+<!ENTITY ntab.contextmenu.search "Search">
+<!ENTITY ntab.contextmenu.search.accesskey "S">
+<!ENTITY ntab.contextmenu.blank "Blank">
+<!ENTITY ntab.contextmenu.blank.accesskey "B">
+<!ENTITY ntab.contextmenu.changebg "Change background">
+<!ENTITY ntab.contextmenu.changebg.accesskey "c">
+<!ENTITY ntab.contextmenu.clearbg "Clear background">
+<!ENTITY ntab.contextmenu.export.accesskey "X">
+<!ENTITY ntab.contextmenu.export "Export">
+<!ENTITY ntab.contextmenu.import.accesskey "I">
+<!ENTITY ntab.contextmenu.import "Import">
+<!ENTITY ntab.contextmenu.clearbg.accesskey "D">
+<!ENTITY ntab.contextmenu.configntab "Preference">
+<!ENTITY ntab.contextmenu.configntab.accesskey "P">
+<!ENTITY ntab.contextmenu.feedback "Feedback">
+<!ENTITY ntab.contextmenu.feedback.accesskey "F">
+
+<!ENTITY cehptitle "Firefox Homepage">

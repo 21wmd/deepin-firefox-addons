@@ -1,0 +1,44 @@
+<!ENTITY ntab.label "Your localized menuitem">
+<!ENTITY ntabContext.label "添加至快速拨号">
+<!ENTITY ntabContext.accesskey "Y">
+<!ENTITY ntabToolbarButton.label "Your Toolbar Button">
+<!ENTITY ntabToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY ntabSidebar.label "Your Sidebar">
+<!ENTITY ntabToolbar.name  "example">
+<!ENTITY ntabToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &ntabToolbar.name;">
+
+<!ENTITY ntab.contextmenu.preferences "首选项">
+<!ENTITY ntab.contextmenu.refresh "刷新">
+<!ENTITY ntab.contextmenu.refresh.accesskey "R">
+<!ENTITY ntab.contextmenu.refreshall "刷新全部">
+<!ENTITY ntab.contextmenu.refreshall.accesskey "A">
+<!ENTITY ntab.contextmenu.edit "编辑">
+<!ENTITY ntab.contextmenu.edit.accesskey "E">
+<!ENTITY ntab.contextmenu.openLinkInNewTab "在新标签中打开链接">
+<!ENTITY ntab.contextmenu.openLinkInNewTab.accesskey "O">
+
+<!ENTITY ntab.contextmenu.switchto "切换至">
+<!ENTITY ntab.contextmenu.switchto.accesskey "W">
+<!ENTITY ntab.contextmenu.nav "导航">
+<!ENTITY ntab.contextmenu.nav.accesskey "A">
+<!ENTITY ntab.contextmenu.quickdial "快速拨号">
+<!ENTITY ntab.contextmenu.quickdial.accesskey "Q">
+<!ENTITY ntab.contextmenu.search "搜索页">
+<!ENTITY ntab.contextmenu.search.accesskey "S">
+<!ENTITY ntab.contextmenu.blank "空白页">
+<!ENTITY ntab.contextmenu.blank.accesskey "B">
+<!ENTITY ntab.contextmenu.changebg "更改背景">
+<!ENTITY ntab.contextmenu.changebg.accesskey "c">
+<!ENTITY ntab.contextmenu.clearbg "清除背景">
+<!ENTITY ntab.contextmenu.export.accesskey "X">
+<!ENTITY ntab.contextmenu.export "导出我的配置文件">
+<!ENTITY ntab.contextmenu.import.accesskey "I">
+<!ENTITY ntab.contextmenu.import "导入我的配置文件">
+<!ENTITY ntab.contextmenu.clearbg.accesskey "D">
+<!ENTITY ntab.contextmenu.configntab "选项">
+<!ENTITY ntab.contextmenu.configntab.accesskey "P">
+<!ENTITY ntab.contextmenu.feedback "意见反馈">
+<!ENTITY ntab.contextmenu.feedback.accesskey "F">
+
+
+<!ENTITY cehptitle "火狐主页">

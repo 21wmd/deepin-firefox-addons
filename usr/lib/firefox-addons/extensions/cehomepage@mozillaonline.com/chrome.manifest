@@ -1,0 +1,27 @@
+content	cehomepage	content/	contentaccessible=yes
+overlay	chrome://browser/content/browser.xul chrome://cehomepage/content/overlay.xul
+
+content ceerrorpage content_errorpage/ contentaccessible=yes
+content ceerrorpage content_errorpage/
+
+overlay chrome://browser/content/browser.xul chrome://ceerrorpage/content/browserOverlay.xul
+
+
+content   ntab               chrome_ntab/content/
+resource  ntab               chrome_ntab/modules/
+skin      ntab  classic/1.0  chrome_ntab/skin/
+
+locale    ntab   en-US       chrome_ntab/locale/en-US/
+locale    ntab   zh-CN       chrome_ntab/locale/zh-CN/
+
+overlay   chrome://browser/content/browser.xul chrome://ntab/content/ff-overlay.xul
+
+
+# components have to be defined in chrome manifest in FF4
+# The {classID} here must match the classID in mycomponent.js
+component {3ce0f801-b121-4a20-9188-3b92b13e9809} components/aboutNTab.js
+contract @mozilla.org/network/protocol/about;1?what=ntab {3ce0f801-b121-4a20-9188-3b92b13e9809}
+
+component {c0a76f7d-8214-4476-afe3-b34f9051cb99} components/aboutCEHome.js
+contract @mozilla.org/network/protocol/about;1?what=cehome {c0a76f7d-8214-4476-afe3-b34f9051cb99}
+

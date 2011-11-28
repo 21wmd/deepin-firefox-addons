@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://ntab/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://ntab/locale/overlay.dtd">
+<overlay id="ntab-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="moa.js"/>
+  <script src="overlay.js"/>
+  <script type="application/x-javascript" src="snapshot.js"/>
+  <script src="sendlink.js"/>
+
+  <script type="text/javascript">
+  	// import session module, so that session can be stored when application quits.
+  	Components.utils['import']('resource://ntab/session.jsm');
+  </script>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="ntab-strings" src="chrome://ntab/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <command id="Browser:SendLink" oncommand="MOA.NTab.SendLink.onMenuItemCommand(event);" />
+  <menuitem id="context-sendpage" oncommand="MOA.NTab.SendLink.onMenuItemCommand(event)" />
+  <menuitem id="context-sendlink" oncommand="MOA.NTab.SendLink.onContextItemCommand(event);" />
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-ntab" label="&ntabContext.label;"
+              accesskey="&ntabContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="MOA.NTab.onMenuItemCommand(event)"/>
+  </popup>
+
+  <hbox style="overflow:hidden; height: 0;">
+  	<vbox id="nt-hidden-box"></vbox>
+  </hbox>
+
+  <window id="main-window">
+	  <menupopup id="nt-menu"  oncommand="MOA.NTab.onContextCommand(event, event.target.id);">
+	  	<menu id="nt-switchview"
+	  		accesskey="&ntab.contextmenu.switchto.accesskey;"
+	  		label="&ntab.contextmenu.switchto;">
+	  		<menupopup oncommand="MOA.NTab.onContextCommand(event, this.parentNode.id);">
+	  			<menuitem name="view"
+			  		accesskey="&ntab.contextmenu.switchto.accesskey;"
+	  				type="radio"
+	  				value="nav"
+	  				label="&ntab.contextmenu.nav;" />
+	  			<menuitem name="view"
+			  		accesskey="&ntab.contextmenu.quickdial.accesskey;"
+	  				type="radio"
+	  				value="quickdial"
+	  				label="&ntab.contextmenu.quickdial;" />
+	  			<menuitem
+			  		accesskey="&ntab.contextmenu.search.accesskey;"
+	  				name="view"
+	  				type="radio"
+	  				value="search"
+	  				label="&ntab.contextmenu.search;" />
+	  			<menuitem
+			  		accesskey="&ntab.contextmenu.blank.accesskey;"
+	  				name="view"
+	  				type="radio"
+	  				value="blank"
+	  				label="&ntab.contextmenu.blank;" />
+	  		</menupopup>
+	  	</menu>
+        <menuitem id="nt-linkopenmodel"
+        	type="checkbox"
+	  		accesskey="&ntab.contextmenu.openLinkInNewTab.accesskey;"
+        	label="&ntab.contextmenu.openLinkInNewTab;"/>
+	  	<menuitem id="nt-edit"
+	  		accesskey="&ntab.contextmenu.edit.accesskey;"
+	  		label="&ntab.contextmenu.edit;" />
+	  	<menuitem id="nt-refresh"
+	  		accesskey="&ntab.contextmenu.refresh.accesskey;"
+	  		label="&ntab.contextmenu.refresh;" />
+	  	<menuitem id="nt-refreshall"
+	  		accesskey="&ntab.contextmenu.refreshall.accesskey;"
+	  		label="&ntab.contextmenu.refreshall;" />
+	  	<menuitem id="nt-changebg"
+	  		accesskey="&ntab.contextmenu.changebg.accesskey;"
+	  		label="&ntab.contextmenu.changebg;" />
+	  	<menuitem id="nt-clearbg"
+	  		accesskey="&ntab.contextmenu.clearbg.accesskey;"
+	  		label="&ntab.contextmenu.clearbg;" />
+		<menuitem id="nt-export"
+			accesskey="&ntab.contextmenu.export.accesskey;"
+			label="&ntab.contextmenu.export;"/>
+		<menuitem id="nt-import"
+			accesskey="&ntab.contextmenu.import.accesskey;"
+			label="&ntab.contextmenu.import;"/>
+        <menuitem id="nt-feedback"
+	  		accesskey="&ntab.contextmenu.feedback.accesskey;"
+	  		label="&ntab.contextmenu.feedback;"
+	  		class="menuitem-iconic" />
+		<menuitem id="nt-configntab"
+	  		accesskey="&ntab.contextmenu.configntab.accesskey;"
+	  		label="&ntab.contextmenu.configntab;" />
+	  	<!-- menuitem id="nt-preferences" label="&ntab.contextmenu.preferences;" / -->
+	  </menupopup>
+  </window>
+</overlay>

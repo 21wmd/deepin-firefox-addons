@@ -1,0 +1,14 @@
+﻿<!ENTITY ntab.config.windowtitle "火狐中国版主页配置">
+<!ENTITY ntab.config.pane1.title "界面">
+<!ENTITY ntab.config.rownumber "拨号栏行数">
+<!ENTITY ntab.config.columnnumber "拨号栏列数">
+<!ENTITY ntab.config.displayntab "打开空白页时显示新标签页">
+<!ENTITY ntab.config.displaysearch "拨号页上方显示搜索栏">
+<!ENTITY ntab.config.addurl "右键菜单中包括“添加至快速拨号”">
+<!ENTITY ntab.config.loadInExistingTabs " 火狐启动时在空白标签中加载新标签页">
+<!ENTITY ntab.config.usehotkey "使用快捷方式打开快速访问页（Ctrl+0~9）">
+<!ENTITY ntab.config.showpersonalhistory "拨号页下方显示用户访问历史记录">
+<!ENTITY ntab.config.yes "是">
+<!ENTITY ntab.config.no "否">
+<!ENTITY ntab.config.tip1 "⑴右键菜单中包括“添加当前页为快速拨号页”">
+<!ENTITY ntab.config.tip2 "⑵使用Ctrl+0~9打开快速拨号页">

@@ -1,0 +1,12 @@
+Source: deepin-firefox-addons
+Section: admin
+Priority: optional
+Maintainer: Leng Ganghua <hiweed@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: deepin-firefox-addons
+Architecture: all
+Depends: firefox
+Description: Web Apps running on Firefox Prism.
+ Apps including Gmail, WebQQ2, Meebo, 1g1g.
